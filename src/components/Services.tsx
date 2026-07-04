@@ -20,7 +20,7 @@ const services: Service[] = [
       "Voice-Based Order Taking",
       "Review & Reputation Management"
     ],
-    image: "/service-1.jpg"
+    image: "service-1.jpg"
   },
   {
     title: "Sales & Lead Management",
@@ -30,7 +30,7 @@ const services: Service[] = [
       "Local SEO Content Bots",
       "Vendor & Supplier Matching"
     ],
-    image: "/service-2.jpg"
+    image: "service-2.jpg"
   },
   {
     title: "Content & Marketing",
@@ -41,7 +41,7 @@ const services: Service[] = [
       "Hyperlocal Community Content Channels",
       "Real Estate Virtual Staging"
     ],
-    image: "/service-3.jpg"
+    image: "service-3.jpg"
   },
   {
     title: "Operations & Backend Automation",
@@ -52,7 +52,7 @@ const services: Service[] = [
       "Logistics & Dispatch Optimization",
       "HR & Resume Screening Automation"
     ],
-    image: "/service-4.jpg"
+    image: "service-4.jpg"
   },
   {
     title: "Document & Compliance",
@@ -62,7 +62,7 @@ const services: Service[] = [
       "Legal & Compliance Document Drafting",
       "Verifiable Credential Systems"
     ],
-    image: "/service-5.jpg"
+    image: "service-5.jpg"
   },
   {
     title: "Industry-Specific Solutions",
@@ -87,7 +87,7 @@ const services: Service[] = [
         ]
       }
     ],
-    image: "/service-6.jpg"
+    image: "service-6.jpg"
   }
 ];
 
@@ -116,7 +116,7 @@ export default function Services() {
           >
             {/* Image Placeholder */}
             <div className="w-full aspect-video bg-white/5 rounded-2xl mb-8 flex items-center justify-center border border-white/5 group-hover:border-white/10 transition-colors overflow-hidden">
-              <img src={service.image} alt={service.title} className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
+              <img src={import.meta.env.BASE_URL + service.image} alt={service.title} className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
             </div>
 
             <h3 className="font-season-sans text-2xl md:text-3xl mb-4 text-white">

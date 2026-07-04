@@ -4,7 +4,7 @@ import { motion } from 'motion/react';
 export default function Hero() {
   return (
     <section className="min-h-screen bg-poch-black text-white relative overflow-hidden flex flex-col items-center justify-start pt-[18vh]">
-      <img src="/bg-image.png" alt="Hero Background" className="absolute inset-0 w-full h-full object-cover z-0 pointer-events-none" />
+      <img src={import.meta.env.BASE_URL + "bg-image.png"} alt="Hero Background" className="absolute inset-0 w-full h-full object-cover z-0 pointer-events-none" />
       <div className="z-10 text-center max-w-5xl mx-auto px-4">
         <motion.h1 
           initial={{ opacity: 0, y: 30 }}
