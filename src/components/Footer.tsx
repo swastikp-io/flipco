@@ -14,11 +14,11 @@ export default function Footer() {
           </div>
         </div>
         <div className="font-inter text-poch-white/60">
-          Flip Studio © 2026
+          FlipCo © 2026
         </div>
       </div>
-      <div className="w-full text-center mt-24">
-        <h1 className="font-season-mix text-[15vw] leading-none text-poch-cream">flip</h1>
+      <div className="w-full text-center mt-24 overflow-hidden">
+        <h1 className="font-season-mix text-[23vw] leading-none text-flip-blue">FlipCo</h1>
       </div>
     </footer>
   );
