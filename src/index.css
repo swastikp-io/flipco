@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Fontdiner+Swanky&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lacquer&display=swap');
+@import "tailwindcss";
+
+@font-face { 
+  font-family: "Season Mix"; 
+  src: url("https://framerusercontent.com/assets/i5RSoWfgMdQFFl36cU3qwhzgdM.woff") format('woff'); 
+  font-style: normal; 
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face { 
+  font-family: "Season Sans"; 
+  src: url("https://framerusercontent.com/assets/94a73Mnm48YxGrK4GecEbsNfDE.woff") format('woff'); 
+  font-style: normal; 
+  font-weight: 600;
+  font-display: swap;
+}
+
+@theme {
+  --color-poch-cream: #fff6c6;
+  --color-poch-black: #000000;
+  --color-poch-black-50: #00000080;
+  --color-flip-blue: #0000FF;
+  --color-poch-white: #ffffff;
+  --color-poch-white-50: #ffffff80;
+  --color-poch-blue: #416afc;
+
+  --font-inter: "Inter", sans-serif;
+  --font-lacquer: "Lacquer", system-ui;
+  --font-season-mix: "Season Mix", sans-serif;
+  --font-season-sans: "Season Sans", sans-serif;
+  --font-swanky: "Fontdiner Swanky", serif;
+}
+
+body {
+  background-color: var(--color-poch-black);
+  color: var(--color-poch-white);
+  font-family: var(--font-inter);
+  overflow-x: hidden;
+}
