@@ -70,15 +70,15 @@ const projects: Project[] = [
 
 export default function Work() {
   return (
-    <section id="work" className="px-4 md:px-8 max-w-[1400px] mx-auto py-32 bg-black text-white">
+    <section id="work" className="px-4 md:px-8 max-w-[1400px] mx-auto py-[clamp(4rem,10vw,8rem)] bg-black text-white">
       
-      <div className="flex flex-col items-center text-center mb-24 space-y-6">
-        <span className="font-inter text-sm md:text-base font-semibold tracking-[0.2em] text-white/50 uppercase">
+      <div className="flex flex-col items-center text-center mb-[clamp(4rem,8vw,6rem)] space-y-6">
+        <span className="font-inter text-[clamp(0.75rem,2vw,1rem)] font-semibold tracking-[0.2em] text-white/50 uppercase">
           Projects
         </span>
       </div>
 
-      <div className="space-y-32">
+      <div className="space-y-[clamp(4rem,10vw,8rem)]">
         {projects.map((project, idx) => (
           <motion.div 
             initial={{ opacity: 0, y: 30 }}
@@ -89,10 +89,10 @@ export default function Work() {
             className="flex flex-col"
           >
             {/* Top Bar */}
-            <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-6 border-t border-white/10 pt-6 mb-12">
+            <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-6 border-t border-white/10 pt-6 mb-[clamp(2rem,5vw,3rem)]">
               <div className="flex flex-wrap items-center gap-2">
                 {project.tags.map((tag, i) => (
-                  <div key={i} className="px-4 py-1.5 rounded-full bg-white/10 text-white text-xs font-inter font-medium">
+                  <div key={i} className="px-4 py-1.5 rounded-full bg-white/10 text-white text-[clamp(0.75rem,1.5vw,0.875rem)] font-inter font-medium">
                     {tag}
                   </div>
                 ))}
@@ -100,13 +100,13 @@ export default function Work() {
             </div>
 
             {/* Content Grid */}
-            <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 mb-16">
+            <div className="grid grid-cols-1 lg:grid-cols-12 gap-[clamp(2rem,6vw,3rem)] lg:gap-8 mb-16">
               <div className="lg:col-span-6">
-                <h3 className="font-inter text-3xl md:text-4xl lg:text-4xl leading-tight tracking-tight text-white/90">
+                <h3 className="font-inter text-[clamp(1.875rem,4vw,2.5rem)] leading-tight tracking-tight text-white/90">
                   {project.title}
                 </h3>
               </div>
-              <div className="lg:col-span-6 grid grid-cols-1 md:grid-cols-2 gap-8 text-white/80 font-inter text-sm md:text-sm leading-relaxed">
+              <div className="lg:col-span-6 grid grid-cols-1 md:grid-cols-2 gap-[clamp(1.5rem,4vw,2rem)] text-white/80 font-inter text-[clamp(0.875rem,1.5vw,1rem)] leading-relaxed">
                 <div>
                   <p>{project.text1}</p>
                 </div>

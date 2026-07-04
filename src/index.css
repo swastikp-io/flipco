@@ -43,6 +43,13 @@ body {
   color: var(--color-poch-white);
   font-family: var(--font-inter);
   overflow-x: hidden;
+  width: 100%;
+  position: relative;
+}
+
+html {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 @theme inline { 
