@@ -25,7 +25,11 @@ const faqs = [
   }
 ];
 
-const introEmailBody = `Hi FlipCo,\n\nI'd love to book a quick intro call to discuss my business, understand your process, and see if we're a good fit to work together.\n\nLooking forward to connecting.`;
+const introEmailBody = `Hi FLIP Co,
+
+I'd love to book a quick intro call to discuss my business, understand your process, and see if we're a good fit to work together.
+
+Looking forward to connecting.`;
 const introMailUrl = `https://mail.google.com/mail/?view=cm&fs=1&to=work.flipco@gmail.com&su=${encodeURIComponent("Intro Call")}&body=${encodeURIComponent(introEmailBody)}`;
 
 export default function FAQ() {

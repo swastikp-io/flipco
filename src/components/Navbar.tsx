@@ -28,7 +28,7 @@ export default function Navbar() {
         className="fixed bottom-6 md:bottom-8 w-full flex justify-between md:justify-center items-center md:gap-1.5 z-[60] pointer-events-none px-4 md:px-0"
       >
         <div className="pointer-events-auto bg-white/10 backdrop-blur-md border border-white/5 rounded-[2rem] px-5 py-2.5 flex items-center justify-center shadow-lg">
-          <span className="font-season-sans text-white text-xl md:text-2xl leading-none tracking-[0.15em]">FlipCo</span>
+          <span className="font-season-sans text-white text-xl md:text-2xl leading-none tracking-[0.15em]">FLIP Co</span>
         </div>
 
         {/* Desktop Links */}
