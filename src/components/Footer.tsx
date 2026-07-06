@@ -14,11 +14,11 @@ export default function Footer() {
           </div>
         </div>
         <div className="font-inter text-poch-white/60 text-[clamp(0.875rem,2vw,1rem)]">
-          FLIP Co © 2026
+          FLIP © 2026
         </div>
       </div>
       <div className="w-full text-center mt-[clamp(3rem,8vw,6rem)] overflow-hidden">
-        <h1 className="font-season-mix text-[clamp(6rem,23vw,250px)] leading-none text-flip-blue select-none">The FLIP Co.</h1>
+        <h1 className="font-season-mix text-[clamp(6rem,23vw,250px)] leading-none text-flip-blue select-none">The FLIP.</h1>
       </div>
     </footer>
   );

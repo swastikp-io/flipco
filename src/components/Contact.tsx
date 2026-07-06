@@ -24,7 +24,7 @@ export default function Contact() {
 
   const displayService = serviceNames[formData.service] || 'something else';
 
-  const textMessage = `Hi Shaurya from FLIP Co,
+  const textMessage = `Hi Shaurya from FLIP,
 I’m ${formData.name}, and I’m interested in your ${displayService} services.
 
 ${formData.message}

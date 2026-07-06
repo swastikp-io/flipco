@@ -12,7 +12,7 @@ export default function Hero() {
           transition={{ duration: 0.8, ease: "easeOut" }}
           className="text-[clamp(2.5rem,7vw,5.5rem)] leading-[1.1] tracking-tight"
         >
-          <span className="font-season-sans font-semibold">We are FLIP Co, building AI</span><br/>
+          <span className="font-season-sans font-semibold">We are FLIP, building AI</span><br/>
           <span className="font-season-mix font-normal text-white/95">
             for businesses that hate
           </span><br/>

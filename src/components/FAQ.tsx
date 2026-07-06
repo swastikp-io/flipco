@@ -25,7 +25,7 @@ const faqs = [
   }
 ];
 
-const introEmailBody = `Hi FLIP Co,
+const introEmailBody = `Hi FLIP,
 
 I'd love to book a quick intro call to discuss my business, understand your process, and see if we're a good fit to work together.
 
